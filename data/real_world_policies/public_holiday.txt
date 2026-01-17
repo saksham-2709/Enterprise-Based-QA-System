@@ -1,0 +1,8 @@
+As a company that prides itself on a family & friends first approach no one is expected to attend calls on days they are not working or out of the office for an official public holiday. We encourage all team members to take time off for public holidays. As a company that values Diversity, Inclusion & Belonging, public holidays will not be pre-loaded to Workday, instead team members have the flexibility to elect different dates and celebrate what’s important to them, as long as they do not exceed the balance in Workday. This means YOU CAN CHOOSE the public holidays you want to take.
+
+All team members will see a public holiday accrual balance in Workday.
+The balance is country specific and was determined based on the local and/or contractual requirements.
+Balances are reviewed and updated if appropriate annually, based on benchmarked data for “National Holidays”.*
+The balance must be used within the calendar year, unused public holiday balances will not rollover to the following calendar year.
+Note *: Contractors of GitLab GSI (previously IT BV) are eligible for general benefits but not entity-specific benefits (including public holidays). However, GitLab has chosen to provide a standardized allocation of 12 public holidays as part of our commitment to supporting all team members. The 12-day allocation matches the weighted average of public holidays globally across countries where team members are employed by GitLab.
+

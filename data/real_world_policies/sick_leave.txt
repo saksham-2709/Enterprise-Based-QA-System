@@ -1,0 +1,14 @@
+Sick Time
+This policy outlines GitLab’s approach to sick time for all team members. It is designed to complement, not replace, any statutory sick leave policies you may be eligible for in your country of residence. Team members are encouraged to familiarize themselves with their location’s statutory reporting requirements and entitlements in their respective handbook sections.
+
+Overview
+GitLab’s sick time policy supports team members who need time away to recover from illness. This policy aligns with our CREDIT values.
+
+Sick time refers to time away needed to recover from short-term illness or for preventative care.
+This includes personal illness (such as COVID-19, cold/flu, menstrual pain, surgery).
+But what if I need to care for an ill family member? Please follow the Caregiver Sick Time Policy.
+Except where required by applicable local law, GitLab’s sick time does not get paid out in case of termination, nor does it reduce your final paycheck in case of a negative balance.
+Sick Time Eligibility and Coverage
+GitLab’s Sick Time policy is administered concurrently with any statutory sick leave for which you may be eligible.
+Each GitLab team member may use up to 25 paid sick days, available from their first day of work. Eligibility is calculated on a rolling 12-month period.
+What does a rolling 12-month period mean? A rolling 12-month calendar refers to a period that always spans exactly 12 consecutive months, but continuously shifts forward as time passes, so the start and end dates move forward together while maintaining a constant 12-month

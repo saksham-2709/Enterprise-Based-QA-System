@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "query": "how many sick days can a GitLab employee take",
+    "expected_mode": "qa",
+    "expected_contains": "25",
+    "description": "QA: Sick time limit"
+  },
+  {
+    "id": 2,
+    "query": "can a GitLab employee take 10 sick days",
+    "expected_mode": "decision",
+    "expected_decision": "ALLOWED",
+    "description": "Decision: Within sick leave limit"
+  },
+  {
+    "id": 3,
+    "query": "can a GitLab employee take 30 sick days",
+    "expected_mode": "decision",
+    "expected_decision": "NOT ALLOWED",
+    "description": "Decision: Exceeds sick leave limit"
+  },
+  {
+    "id": 4,
+    "query": "sick time policy",
+    "expected_mode": "search",
+    "description": "Search: Policy lookup"
+  },
+  {
+    "id": 5,
+    "query": "what is the job grade of senior absence management partner",
+    "expected_mode": "qa",
+    "expected_contains": "grade 7",
+    "description": "QA: Role metadata"
+  },
+  {
+    "id": 6,
+    "query": "can a GitLab employee take 25 sick days",
+    "expected_mode": "decision",
+    "expected_decision": "ALLOWED",
+    "description": "Boundary: Exactly at sick leave limit"
+  },
+  {
+    "id": 7,
+    "query": "can a GitLab employee take 26 sick days",
+    "expected_mode": "decision",
+    "expected_decision": "NOT ALLOWED",
+    "description": "Boundary: One day above limit"
+  },
+  {
+    "id": 8,
+    "query": "is sick leave paid at GitLab",
+    "expected_mode": "qa",
+    "expected_contains": "paid",
+    "description": "QA: Paid sick leave confirmation"
+  },
+  {
+    "id": 9,
+    "query": "does GitLab sick leave roll over",
+    "expected_mode": "qa",
+    "expected_contains": "rolling",
+    "description": "QA: Rolling 12-month period"
+  },
+  {
+    "id": 10,
+    "query": "can a GitLab employee take sick leave for covid",
+    "expected_mode": "qa",
+    "expected_contains": "COVID",
+    "description": "QA: Covered illness example"
+  },
+  {
+    "id": 11,
+    "query": "can a GitLab employee take sick leave to care for a family member",
+    "expected_mode": "qa",
+    "expected_contains": "Caregiver",
+    "description": "Policy redirection: Caregiver Sick Time"
+  },
+  {
+    "id": 12,
+    "query": "can a GitLab employee take sick leave after termination",
+    "expected_mode": "decision",
+    "expected_decision": "NOT ALLOWED",
+    "description": "Decision: Sick leave not paid out after termination"
+  },
+  {
+    "id": 13,
+    "query": "can a GitLab employee take sick leave beyond statutory limits",
+    "expected_mode": "decision",
+    "expected_decision": "UNCLEAR",
+    "description": "Decision: Requires local law context"
+  },
+  {
+    "id": 14,
+    "query": "how many public holidays does GitLab provide",
+    "expected_mode": "qa",
+    "expected_contains": "12",
+    "description": "QA: Public holiday allocation"
+  },
+  {
+    "id": 15,
+    "query": "can a GitLab contractor take public holidays",
+    "expected_mode": "decision",
+    "expected_decision": "ALLOWED",
+    "description": "Decision: Contractor public holiday exception"
+  },
+  {
+    "id": 16,
+    "query": "what does the senior absence management partner do",
+    "expected_mode": "qa",
+    "expected_contains": "absence",
+    "description": "QA: Role responsibilities"
+  },
+  {
+    "id": 17,
+    "query": "can a GitLab employee take sick leave every year",
+    "expected_mode": "qa",
+    "expected_contains": "rolling",
+    "description": "QA: Rolling window clarification"
+  },
+  {
+    "id": 18,
+    "query": "sick leave rules at GitLab",
+    "expected_mode": "search",
+    "description": "Search: Policy discovery"
+  },
+  {
+    "id": 19,
+    "query": "can a GitLab employee take sick leave without limit",
+    "expected_mode": "decision",
+    "expected_decision": "NOT ALLOWED",
+    "description": "Decision: Explicit limit exists"
+  },
+  {
+    "id": 20,
+    "query": "what happens if sick leave balance is negative",
+    "expected_mode": "qa",
+    "expected_contains": "does not reduce",
+    "description": "QA: Negative balance behavior"
+  }
+
+]
