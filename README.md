@@ -111,12 +111,3 @@ All tests pass on real GitLab Handbook policy data.
 
 ---
 
-## Resume Summary
-
-Built an enterprise-grade RAG system for policy intelligence with semantic search, factual QA, and compliance decision-making. Implemented multi-organization vector isolation, numeric policy reasoning, chunk reconstruction, and automated evaluation on real GitLab Handbook data.
-
----
-
-## License
-
-MIT
